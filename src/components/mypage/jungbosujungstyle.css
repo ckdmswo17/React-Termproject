@@ -1,0 +1,464 @@
+.my-page-total {
+  min-width: 1280px;
+  margin: 0 auto;
+  background-color: skyblue;
+}
+
+.my-page-total .my-page-inside {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#sub-header-container[data-v-3e045b00] {
+  width: 100%;
+  text-align: center;
+}
+
+#sub-header-container .sub-header-title[data-v-3e045b00] {
+  font-family: Noto Sans CJK KR Light;
+  font-size: 42px;
+  padding: 50px 0;
+}
+
+.menutab-page-whole-div {
+  height: 60px;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.menutab-page-menutab {
+  padding: 0;
+  text-align: center;
+  /* overflow: auto; */
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
+.menutab-page-menutab .menutab-page-title {
+  display: inline-block;
+}
+
+.menutab-page-menutab .isActive {
+  height: 60px;
+  border-bottom: 2px solid #222;
+  color: #222;
+}
+
+.menutab-page-menutab h5 {
+  cursor: pointer;
+  line-height: 9px;
+  white-space: nowrap;
+  font-size: 18px;
+  color: #999;
+}
+
+h5,
+h6 {
+  font-family: Noto Sans CJK KR Regular;
+}
+h5 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.my-page-editinfo[data-v-2ecae326] {
+  height: 100%;
+  min-height: 700px;
+  width: 100%;
+  min-width: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+.my-page-editinfo .pc-top-text[data-v-2ecae326] {
+  width: 1200px;
+  font-family: Noto Sans CJK KR Bold;
+  font-size: 22px;
+  border-bottom: 1px solid #999;
+  color: #222;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 27px;
+}
+
+.my-page-editinfo .pc-body-container[data-v-2ecae326] {
+  margin: 70px 0 120px;
+  padding: 0 270px;
+}
+
+.my-page-editinfo .pc-body-container .padding-box[data-v-2ecae326] {
+  width: 660px;
+}
+
+.my-page-editinfo .pc-body-container .box-text[data-v-2ecae326] {
+  margin-bottom: 20px;
+}
+
+.alvolo-input[data-v-8d79ce1c] {
+  position: relative;
+  overflow: hidden;
+}
+
+.alvolo-input .input-defalut[data-v-8d79ce1c] {
+  padding: 15px 10px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  font-family: Noto Sans CJK KR Regular;
+  font-size: 18px;
+}
+
+.alvolo-input input[data-v-8d79ce1c] {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.alvolo-input .success-img[data-v-8d79ce1c] {
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  right: 10px;
+  top: 16px;
+}
+
+.alvolo-input .label-validate[data-v-8d79ce1c] {
+  display: inline-block;
+  padding: 15px 0 0 11px;
+  font-family: Noto Sans CJK KR Regular;
+  color: #f9423a;
+  font-size: 18px;
+}
+
+.special_signInfo[data-v-2ecae326] {
+  font-size: 12px;
+  color: #f9423a;
+  text-align: left;
+  padding: 10px 0 0 10px;
+  max-width: 660px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box
+  .number-area[data-v-2ecae326] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box
+  .number-area
+  .number-area-left[data-v-2ecae326] {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box
+  .number-area
+  .number-area-right[data-v-2ecae326] {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.alvolo-select,
+.alvolo-select-noline {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #666;
+  width: 100%;
+  font-family: Noto Sans CJK KR Light, serif;
+  font-size: 20px;
+  color: #222;
+  background: transparent
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIxMi4xMjUiPjxwYXRoIGQ9Ik0xOC44OC4wMTNMMTAuNSA4LjA1NiAyLjEyLjAxMiAwIDIuMDQ4IDEwLjUgMTIuMTMgMjEgMi4wNDh6IiBmaWxsPSIjMjIyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+    no-repeat 100%;
+  background-size: 11px 7px;
+  background-position-x: calc(100% - 15px);
+}
+
+.alvolo-select {
+  padding: 0 10px !important;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.alvolo-select,
+.alvolo-select-web-noline {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-family: Noto Sans CJK KR Light, serif;
+  font-size: 16px;
+  ound: transparent
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIxMi4xMjUiPjxwYXRoIGQ9Ik0xOC44OC4wMTNMMTAuNSA4LjA1NiAyLjEyLjAxMiAwIDIuMDQ4IDEwLjUgMTIuMTMgMjEgMi4wNDh6IiBmaWxsPSIjMjIyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+    no-repeat 100%;
+  background-size: 11px 7px;
+  ound-position-x: calc(100% - 15px);
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box
+  .number-area
+  .number-area-right[data-v-2ecae326] {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.alvolo-input-auth[data-v-20430a6f] {
+  position: relative;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.alvolo-input-auth .alvolo-input-default[data-v-20430a6f] {
+  position: absolute;
+  width: 100%;
+  padding: 15px 150px 15px 10px;
+  font-family: Noto Sans CJK KR Regular;
+  color: #222;
+  font-size: 18px !important;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.alvolo-input-auth input[data-v-20430a6f] {
+  outline: none;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.alvolo-input-auth .btn-auth-gray[data-v-20430a6f] {
+  font-size: 16px !important;
+  font-family: Noto Sans CJK KR Medium;
+  letter-spacing: -0.4px;
+  width: 128px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.alvolo-input-auth .btn-auth-number[data-v-20430a6f] {
+  position: absolute;
+  right: 10px;
+}
+
+.btn-auth-gray {
+  background-color: #ccc;
+  color: #fff;
+  font-family: Noto Sans CJK KR Regular;
+  font-size: 14px;
+  height: 30px;
+  padding: 0 8px;
+  line-height: 30px;
+}
+
+.my-page-editinfo .pc-body-container .padding-box2[data-v-2ecae326] {
+  width: 660px;
+}
+
+.my-page-editinfo .pc-body-container .padding-box2 .mail-area[data-v-2ecae326] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  font-size: 18px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .mail-area
+  .mail-area-left[data-v-2ecae326] {
+  width: 47%;
+  margin-right: 5px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .mail-area
+  .mail-area-right[data-v-2ecae326] {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .mail-area
+  .mail-area-right
+  .mail-area-right-direct[data-v-2ecae326] {
+  width: 80%;
+  position: absolute;
+  height: 50px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  font-family: Noto Sans CJK KR Regular;
+  color: #222;
+  font-size: 18px;
+}
+
+.my-page-editinfo .pc-body-container .box-text[data-v-2ecae326] {
+  margin-bottom: 20px;
+}
+
+.alvolo-input-auth[data-v-20430a6f] {
+  position: relative;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .membership-check-toggle[data-v-2ecae326] {
+  margin-top: 15px;
+  font-family: Noto Sans CJK KR Regular;
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .membership-check-toggle
+  .check-toggle[data-v-2ecae326] {
+  width: 28px;
+  height: 28px;
+  float: left;
+}
+
+.check_toggle_whole[data-v-18839c38] {
+  display: inline-block;
+}
+
+.check_toggle_whole .checkImg[data-v-18839c38] {
+  float: left;
+  width: 27px;
+  height: 27px;
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.check_toggle_whole .toggle-txt[data-v-18839c38] {
+  float: left;
+  margin-left: 10px;
+  line-height: 27px;
+  color: #555;
+  font-family: Noto Sans CJK KR Medium;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .padding-box2
+  .membership-check-toggle
+  .context[data-v-2ecae326] {
+  float: left;
+  line-height: 28px;
+  margin-left: 4px;
+  margin-right: 10px;
+  color: royalblue;
+  cursor: pointer;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .edit-membership-button-container[data-v-2ecae326] {
+  width: 100%;
+  color: #fff;
+  font-size: 22px;
+  font-family: Noto Sans CJK KR Medium;
+  margin-top: 60px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .edit-membership-button-container
+  .gray-button[data-v-2ecae326] {
+  width: 325px;
+  height: 64px;
+  background-color: #ccc;
+  line-height: 64px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.my-page-editinfo
+  .pc-body-container
+  .edit-membership-button-container
+  .blue-button[data-v-2ecae326] {
+  width: 324px;
+  height: 64px;
+  background-color: #41b6e6;
+  line-height: 64px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* 종합 후 추가 */
+.input-defalut {
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+}
+.label-validate {
+  display: none;
+}
+.success-img {
+  display: none;
+}
+.alvolo-select {
+  height: 50px;
+}
+.alvolo-input-default {
+  background-color: rgb(255, 255, 255);
+}
+.toggle-txt {
+  font-size: 11px;
+  color: rgb(85, 85, 85);
+}
